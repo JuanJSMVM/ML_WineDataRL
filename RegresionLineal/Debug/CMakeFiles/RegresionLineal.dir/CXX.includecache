@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/juan/Documentos/Programas C++/Segundo Corte /RegresionLineal/exeigennorm.h
+iostream
+-
+fstream
+-
+Eigen/Dense
+-
+vector
+-
+
+/home/juan/Documentos/Programas C++/Segundo Corte /RegresionLineal/linealregression.h
+Eigen/Dense
+-
+iostream
+-
+cmath
+-
+vector
+-
+
+/home/juan/Documentos/Programas C++/Segundo Corte /RegresionLineal/main.cpp
+exeigennorm.h
+/home/juan/Documentos/Programas C++/Segundo Corte /RegresionLineal/exeigennorm.h
+linealregression.h
+/home/juan/Documentos/Programas C++/Segundo Corte /RegresionLineal/linealregression.h
+iostream
+-
+stdlib.h
+-
+Eigen/Dense
+-
+boost/algorithm/string.hpp
+-
+vector
+-
+
